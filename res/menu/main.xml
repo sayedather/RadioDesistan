@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testradio.MainActivity" >
+
+   <item
+        android:id="@+id/fb"
+        android:orderInCategory="100"
+        android:showAsAction="never" 
+        android:title="Facebook"/>
+     
+      <item
+        android:id="@+id/twit"
+        android:orderInCategory="100"
+        android:showAsAction="never" 
+        android:title="Twitter"/>
+      
+       <item
+        android:id="@+id/ig"
+        android:orderInCategory="100"
+        android:showAsAction="never" 
+        android:title="Instagram"/>
+    
+  
+
+     <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:showAsAction="never" 
+        android:title="About"/>
+     
+       <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Exit"/>
+     
+        <item
+        android:id="@+id/share"
+        android:showAsAction="withText|ifRoom"
+         android:icon="@drawable/ic_action_share"
+        android:title="Share"/>
+
+</menu>
